@@ -7,7 +7,7 @@ I am Grishma, currently pursuing my graduate studies at the University of Pittsb
 
 
 ## Education
-- PhD, Computational Modeling and Simulation Program (MEMS Dept) | University of Pittsburgh (Aug 2021- July 2025(exp)) (GPA: 3.859 out of 4)
+- PhD, Computational Modeling and Simulation Program (MEMS Dept) | University of Pittsburgh (Aug 2021- Dec 2025(exp)) (GPA: 3.859 out of 4)
 - M.S., Applied Mathematics	                             | University of Pittsburgh (December 2020)	 		
 - B.S.M.S. Dual Degree, Major: Mathematics Minor: Physics	     | Indian Institute of Science Education and Research Bhopal (May 2017)	 			        		
 
