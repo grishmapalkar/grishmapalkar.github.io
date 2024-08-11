@@ -52,7 +52,7 @@ Project 3: Conduct an examination into the stability analysis of the TDB-CUR met
 ## Graduate Coursework
 - Data-driven modeling for engrs, UPitt, Grade A+
 - Machine learning, UPitt, Grade: A
-- Data cetric computing, UPitt, Grade A
+- Data centric computing, UPitt, Grade A
 - Numerical solutions of ode/pde, Grade A+/A
 
 ## Workshops and Conferences
