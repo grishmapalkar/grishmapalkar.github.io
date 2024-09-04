@@ -56,6 +56,7 @@ Project 3: Conduct an examination into the stability analysis of the TDB-CUR met
 - Numerical solutions of ode/pde, Grade A+/A
 
 ## Workshops and Conferences
+- Presented a Minisymposium at 2024 SIAM Annual Meeting (AN24)
 - Poster Presentation at SIAM-NNP, NJIT, NJ (USA) - October 2023
 - Talk at AWM Pitt Graduate Seminar - https://youtu.be/VWMUYsA2dE0?si=0AzSiOcfDXDd7yO3 - March 2021
 - Graduate Career Design Workshop and Series, University of Pittsburgh, PA (USA) - 2022
