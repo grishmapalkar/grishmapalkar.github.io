@@ -23,7 +23,7 @@ I am Grishma, currently pursuing my graduate studies at the University of Pittsb
 *Oblique projection for scalable rank-adaptive reduced-order modelling of nonlinear stochastic partial differential equations with time-dependent bases.*  
 **Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences**, 479(2278), 20230320, 2023.
 
-2. **Palkar, G.**, Wu, J.-Y., & Ermentrout, B.  
+2. **Palkar, G.**, Jian-young Wu, & Ermentrout, B.  
 *The inhibitory control of traveling waves in cortical networks.*  
 **PLoS Computational Biology**, 19(4): e1010697, 2023.
 
@@ -41,7 +41,7 @@ Time-dependent basis reduced-order models (TDB ROMs) have successfully been used
 
 #### Project 2: 
 ##### Achievement: 
-We explore the geometric foundations of Reduced Order Modeling (ROM) through the lens of Riemannian manifold theory to identify key sources of error in existing state-of-the-art ROM techniques. This investigation leads to the development of a novel oversampling strategy designed to capture a wider range of data variability, thereby improving model accuracy while significantly reducing computational cost. The proposed oversampling method, seamlessly integrated into the ROM framework, demonstrates a tenfold reduction in computational expense compared to conventional approaches. We validate its performance on a range of challenging problems, including highly nonlinear and stiff systems discretized on finite element meshes—scenarios in which traditional ROM techniques often incur costs comparable to full-order models.
+I explore the geometric foundations of Reduced Order Modeling (ROM) through the lens of Riemannian manifold theory to identify key sources of error in existing state-of-the-art ROM techniques. This investigation leads to the development of a novel oversampling strategy designed to capture a wider range of data variability, thereby improving model accuracy while significantly reducing computational cost. The proposed oversampling method, seamlessly integrated into the ROM framework, demonstrates a tenfold reduction in computational expense compared to conventional approaches. I validate its performance on a range of challenging problems, including highly nonlinear and stiff systems discretized on finite element meshes—scenarios in which traditional ROM techniques often incur costs comparable to full-order models.
 
 
 #### Project 3: 	
