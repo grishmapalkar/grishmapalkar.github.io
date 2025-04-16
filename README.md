@@ -31,49 +31,44 @@ I am Grishma, currently pursuing my graduate studies at the University of Pittsb
 
 ## Research Projects
 
-
 ### **Completed Projects**
 
 #### **Project 1: Scalable Time-Dependent Basis ROM for Nonlinear SPDEs**
 **Achievement:**  
-Developed a reduced-order modeling framework achieving *\underline{1000× speedup}* over full-order models and *\underline{10× improvement}* over existing ROMs, with *\underline{99.99% accuracy}* and enhanced numerical stability. The model adapts dynamically to *\underline{rank changes}*, is robust to *\underline{small singular values}*, and supports *\underline{parallelization}* with minimal code intrusion.
+Developed a reduced-order modeling framework achieving **1000× speedup** over full-order models and **10× improvement** over existing ROMs, with **99.99% accuracy** and enhanced numerical stability. The model adapts dynamically to rank changes, is robust to small singular values, and supports parallelization with minimal code intrusion.
 
 **Description:**  
-Time-dependent basis reduced-order models (TDB ROMs) are effective for approximating *\underline{nonlinear stochastic PDEs}*, but their use is limited by *\underline{inefficiency}*, *\underline{intrusiveness}*, *\underline{ill-conditioning}*, and *\underline{fixed-rank errors}*. We present a *\underline{scalable, robust, and minimally intrusive}* method using *\underline{oblique projections}* and a DEIM-based *\underline{CUR decomposition}*. The model projects the MDE onto a small subset of rows and columns, enabling *\underline{efficient, rank-adaptive, and parallelizable}* simulations validated across multiple challenging cases.
+Time-dependent basis reduced-order models (TDB ROMs) are effective for approximating nonlinear stochastic PDEs, but their practical use is often limited by inefficiency for general nonlinearities, intrusive implementations, ill-conditioning, and fixed-rank error accumulation. We present a **scalable, robust, and minimally intrusive** method for solving TDB ROMs by projecting the full-order matrix differential equation (MDE) onto a small set of strategically selected rows and columns using **oblique projections** and **DEIM-based CUR decomposition**. This results in a method that is highly efficient, rank-adaptive, and parallelizable. Numerical validation demonstrates its effectiveness across a wide range of challenging problems.
 
----
+
 
 #### **Project 2: Geometric Oversampling for Enhanced ROM Accuracy**
 **Achievement:**  
-Explored the *\underline{geometric foundations}* of ROMs through *\underline{Riemannian manifold theory}*, revealing root causes of error in state-of-the-art methods. Developed a *\underline{novel oversampling strategy}* that improves accuracy and achieves a *\underline{tenfold reduction}* in computational cost. Applied it to *\underline{nonlinear, stiff systems}* on *\underline{finite element meshes}*, where traditional ROMs often match the cost of full-order models.
+Investigated geometric sources of error in modern ROMs using **Riemannian manifold theory**, leading to a **novel oversampling strategy** that improves model accuracy while reducing computational costs by an order of magnitude compared to conventional sampling. The technique was validated on nonlinear, stiff systems on finite element meshes, where traditional ROMs often fail to outperform full-order models.
 
----
+
 
 #### **Project 3: Seizure Prediction via Cortical Wave Modeling**
 **Achievement:**  
-Built a *\underline{1D spiking neural network}* to study *\underline{cortical wave propagation}* and its regulation through inhibition. Developed a *\underline{reduced synaptic activity model}* revealing how brain dynamics can shift to *\underline{seizure-like states}*. Demonstrated how *\underline{loss of inhibition}* triggers abrupt failure in wave transmission.
+Built a 1D spiking neural network model to explore **wave propagation in the brain**, uncovering mechanisms by which inhibitory control shapes cortical sensitivity. Developed a reduced synaptic activity model to study the **stability of healthy vs. seizure-like dynamics**, showing that loss of wave propagation can occur abruptly, providing insights into epileptic transitions.
 
 **Description:**  
-We modeled *\underline{evoked and spontaneous waves}* in the cortex, crucial for *\underline{information transfer}*. A mean-field model helped explain how altering spatial and temporal inhibition leads to transitions between *\underline{healthy and pathological dynamics}*. Our analysis provided insight into the mechanisms of *\underline{epileptic seizure onset}*.
+Cortical waves play a critical role in information transfer and neural responsiveness. We simulated these waves using a spiking neuronal network and validated our findings with cortical slice experiments. A mean-field model of synaptic activity was derived to explore transitions from normal to pathological states, demonstrating how spatial and temporal inhibition governs the stability and existence of wavefronts.
 
----
+
 
 #### **Project 4: Fifth-Year Thesis – Vector Bundles over Riemann Surfaces (IISER Bhopal)**  
-Studied *\underline{vector bundles}* over *\underline{compact Riemann surfaces}* and proved *\underline{André Weil’s theorem}* under the supervision of Dr. Sanjay Kumar Singh. Constructed bundles from *\underline{fundamental group representations}* and characterized those of *\underline{degree zero}* arising from such structures.
+Under the supervision of Dr. Sanjay Kumar Singh, this project focused on vector bundles over compact Riemann surfaces, culminating in a proof of **André Weil’s theorem**. The work involved constructing vector bundles from fundamental group representations and characterizing those of **degree zero** that originate from such representations.
 
----
+
 
 ### **Ongoing Projects**
 
 #### **Project 1: Domain Decomposition for Transport-Dominated Systems**
-Developed a *\underline{domain decomposition method}* for *\underline{transport-dominated problems}*, achieving a *\underline{12× data size reduction}* and significant computational savings. The method supports *\underline{parallel execution}* of subdomains, making it ideal for *\underline{large-scale, high-dimensional simulations}*.
+Developed a novel **domain decomposition** strategy tailored for transport-dominated phenomena like convection and shock waves. Achieved a **12× reduction** in data size and significantly decreased computational time. The method supports **parallel computing** by independently solving subdomains, enhancing scalability and efficiency in large-scale simulations.
 
 #### **Project 2: Parametric Optimization Using TDB-CUR**
-Collaborating with a colleague at the *\underline{University of Waterloo}*, we apply the *\underline{TDB-CUR algorithm}* to large-scale *\underline{parametric optimization under uncertainty}*. Guided by a Master's student, this work aims to enable *\underline{low-rank surrogate modeling}* to speed up decision-making in complex systems.
-
----
-
-Let me know if you'd like to italicize, color-code, or restructure any further!
+In collaboration with a colleague from the University of Waterloo and guided by a Master's student, this project applies the **TDB-CUR** framework to accelerate **parametric optimization under uncertainty**. The aim is to efficiently navigate large parameter spaces using low-rank surrogates for complex systems.
 
 #### Technical Skills: Matlab, Python, C++, Julia, Fortran, R, SQL, Latex, XPPAUT
 #### Research: Mathematical Modeling, Reduced Order Modeling, Data-Driven Modeling, Uncertainty Quantification, Computational Fluid Dynamics, Machine Learning, Computational Neuroscience
