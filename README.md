@@ -17,15 +17,17 @@ I am Grishma, currently pursuing my graduate studies at the University of Pittsb
 - Followed established course outline to prepare lessons,convey information and enhance understanding of course material.
             
  
-## Publications
-1. M Donello, G Palkar, MH Naderi, DC Fernández, Hessam Babaee. 
-Oblique projection for scalable rank-adaptive reduced-order modelling of nonlinear stochastic
-partial differential equations with time-dependent bases. Proceedings of the Royal
-Society A: Mathematical, Physical and Engineering Sciences, 479(2278):20230320,
-2023/10/19 2023}
+### **Publications**
 
-2. Grishma Palkar, Jian-young Wu, Bard Ermentrout.
-The inhibitory control of traveling waves in cortical networks. PLoS Comput Biol 19:e1010697(PLoS 2023)
+1. **Donello, M.**, **Palkar, G.**, Naderi, M.H., Fernández, D.C., & Babaee, H.  
+*Oblique projection for scalable rank-adaptive reduced-order modelling of nonlinear stochastic partial differential equations with time-dependent bases.*  
+**Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences**, 479(2278), 20230320, 2023.
+
+2. **Palkar, G.**, Wu, J.-Y., & Ermentrout, B.  
+*The inhibitory control of traveling waves in cortical networks.*  
+**PLoS Computational Biology**, 19(4): e1010697, 2023.
+
+
 
 ## Research Projects
 
