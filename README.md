@@ -32,49 +32,48 @@ I am Grishma, currently pursuing my graduate studies at the University of Pittsb
 ## Research Projects
 
 
-### **Completed**
+### **Completed Projects**
 
-#### **Project 1: Efficient and Robust Low-Rank Modeling for Large-Scale Nonlinear SPDEs**
-
+#### **Project 1: Scalable Time-Dependent Basis ROM for Nonlinear SPDEs**
 **Achievement:**  
-Achieved simulation speeds **1,000× faster** than full-order models and **10× faster** than comparable reduced-order models, while maintaining **99.99% accuracy**. The method exhibited **robustness to small singular values**, **adaptability to rank variation**, and **high parallelizability**, offering exceptional computational efficiency with minimal intrusion.
+Developed a reduced-order modeling framework achieving *\underline{1000× speedup}* over full-order models and *\underline{10× improvement}* over existing ROMs, with *\underline{99.99% accuracy}* and enhanced numerical stability. The model adapts dynamically to *\underline{rank changes}*, is robust to *\underline{small singular values}*, and supports *\underline{parallelization}* with minimal code intrusion.
 
-**Project Description:**  
-Time-dependent basis reduced-order models (TDB ROMs) have emerged as powerful tools for approximating solutions to large-scale nonlinear stochastic partial differential equations (PDEs). However, practical deployment is hindered by key challenges: (i) inefficiency with general nonlinearities, (ii) intrusive implementation requirements, (iii) numerical instability from small singular values, and (iv) error accumulation due to fixed-rank truncation.
+**Description:**  
+Time-dependent basis reduced-order models (TDB ROMs) are effective for approximating *\underline{nonlinear stochastic PDEs}*, but their use is limited by *\underline{inefficiency}*, *\underline{intrusiveness}*, *\underline{ill-conditioning}*, and *\underline{fixed-rank errors}*. We present a *\underline{scalable, robust, and minimally intrusive}* method using *\underline{oblique projections}* and a DEIM-based *\underline{CUR decomposition}*. The model projects the MDE onto a small subset of rows and columns, enabling *\underline{efficient, rank-adaptive, and parallelizable}* simulations validated across multiple challenging cases.
 
-To overcome these barriers, we developed a **scalable, robust, and adaptive framework** for solving matrix differential equations (MDEs) arising from TDB ROMs. Our approach leverages **oblique projections** and **CUR decompositions**, with row and column sampling performed via the **Discrete Empirical Interpolation Method (DEIM)**—enabling near-optimal low-rank approximations. This results in a **minimally intrusive**, **rank-adaptive**, and **highly parallelizable** algorithm.
-
-Extensive numerical experiments on challenging PDE systems—including those exhibiting stiff and chaotic behavior—demonstrated the method's superior performance in terms of **accuracy, stability, and efficiency**.
-
+---
 
 #### **Project 2: Geometric Oversampling for Enhanced ROM Accuracy**
 **Achievement:**  
-Investigated geometric sources of error in modern ROMs using **Riemannian manifold theory**, leading to a **novel oversampling strategy** that improves model accuracy while reducing computational costs by an order of magnitude compared to conventional sampling. The technique was validated on nonlinear, stiff systems on finite element meshes, where traditional ROMs often fail to outperform full-order models.
+Explored the *\underline{geometric foundations}* of ROMs through *\underline{Riemannian manifold theory}*, revealing root causes of error in state-of-the-art methods. Developed a *\underline{novel oversampling strategy}* that improves accuracy and achieves a *\underline{tenfold reduction}* in computational cost. Applied it to *\underline{nonlinear, stiff systems}* on *\underline{finite element meshes}*, where traditional ROMs often match the cost of full-order models.
 
-
+---
 
 #### **Project 3: Seizure Prediction via Cortical Wave Modeling**
 **Achievement:**  
-Built a 1D spiking neural network model to explore **wave propagation in the brain**, uncovering mechanisms by which inhibitory control shapes cortical sensitivity. Developed a reduced synaptic activity model to study the **stability of healthy vs. seizure-like dynamics**, showing that loss of wave propagation can occur abruptly, providing insights into epileptic transitions.
+Built a *\underline{1D spiking neural network}* to study *\underline{cortical wave propagation}* and its regulation through inhibition. Developed a *\underline{reduced synaptic activity model}* revealing how brain dynamics can shift to *\underline{seizure-like states}*. Demonstrated how *\underline{loss of inhibition}* triggers abrupt failure in wave transmission.
 
 **Description:**  
-Cortical waves play a critical role in information transfer and neural responsiveness. We simulated these waves using a spiking neuronal network and validated our findings with cortical slice experiments. A mean-field model of synaptic activity was derived to explore transitions from normal to pathological states, demonstrating how spatial and temporal inhibition governs the stability and existence of wavefronts.
+We modeled *\underline{evoked and spontaneous waves}* in the cortex, crucial for *\underline{information transfer}*. A mean-field model helped explain how altering spatial and temporal inhibition leads to transitions between *\underline{healthy and pathological dynamics}*. Our analysis provided insight into the mechanisms of *\underline{epileptic seizure onset}*.
 
-
+---
 
 #### **Project 4: Fifth-Year Thesis – Vector Bundles over Riemann Surfaces (IISER Bhopal)**  
-Under the supervision of Dr. Sanjay Kumar Singh, this project focused on vector bundles over compact Riemann surfaces, culminating in a proof of **André Weil’s theorem**. The work involved constructing vector bundles from fundamental group representations and characterizing those of **degree zero** that originate from such representations.
+Studied *\underline{vector bundles}* over *\underline{compact Riemann surfaces}* and proved *\underline{André Weil’s theorem}* under the supervision of Dr. Sanjay Kumar Singh. Constructed bundles from *\underline{fundamental group representations}* and characterized those of *\underline{degree zero}* arising from such structures.
 
-
+---
 
 ### **Ongoing Projects**
 
 #### **Project 1: Domain Decomposition for Transport-Dominated Systems**
-Developed a novel **domain decomposition** strategy tailored for transport-dominated phenomena like convection and shock waves. Achieved a **12× reduction** in data size and significantly decreased computational time. The method supports **parallel computing** by independently solving subdomains, enhancing scalability and efficiency in large-scale simulations.
+Developed a *\underline{domain decomposition method}* for *\underline{transport-dominated problems}*, achieving a *\underline{12× data size reduction}* and significant computational savings. The method supports *\underline{parallel execution}* of subdomains, making it ideal for *\underline{large-scale, high-dimensional simulations}*.
 
 #### **Project 2: Parametric Optimization Using TDB-CUR**
-In collaboration with a colleague from the University of Waterloo and guided by a Master's student, this project applies the **TDB-CUR** framework to accelerate **parametric optimization under uncertainty**. The aim is to efficiently navigate large parameter spaces using low-rank surrogates for complex systems.
+Collaborating with a colleague at the *\underline{University of Waterloo}*, we apply the *\underline{TDB-CUR algorithm}* to large-scale *\underline{parametric optimization under uncertainty}*. Guided by a Master's student, this work aims to enable *\underline{low-rank surrogate modeling}* to speed up decision-making in complex systems.
 
+---
+
+Let me know if you'd like to italicize, color-code, or restructure any further!
 
 #### Technical Skills: Matlab, Python, C++, Julia, Fortran, R, SQL, Latex, XPPAUT
 #### Research: Mathematical Modeling, Reduced Order Modeling, Data-Driven Modeling, Uncertainty Quantification, Computational Fluid Dynamics, Machine Learning, Computational Neuroscience
