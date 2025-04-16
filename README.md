@@ -46,37 +46,34 @@ To overcome these barriers, we developed a **scalable, robust, and adaptive fram
 
 Extensive numerical experiments on challenging PDE systems—including those exhibiting stiff and chaotic behavior—demonstrated the method's superior performance in terms of **accuracy, stability, and efficiency**.
 
-### Completed
-#### Project 1: 
-##### Achievement:
-The method achieved simulations 10^3 times faster than traditional methods and 10 times faster than comparable ROMs, with 99.99% accuracy and enhanced stability. The model demonstrates robustness in small singular value scenarios, adaptability to rank changes, and high parallelizability, ensuring computational efficiency and minimal intrusion.
 
-##### Project discription: 
-Time-dependent basis reduced-order models (TDB ROMs) have successfully been used for approximating the solution to nonlinear stochastic partial differential equations (PDEs). For many practical problems of interest, discretizing these PDEs results in massive matrix differential equations (MDEs) that are too expensive to solve using conventional methods. While TDB ROMs have the potential to significantly reduce this computational burden, they still suffer from the following challenges: (i) inefficient for general nonlinearities, (ii) intrusive implementation, (iii) ill-conditioned in the presence of small singular values and (iv) error accumulation due to fixed rank. To this end, we present a scalable method for solving TDB ROMs that is computationally efficient, minimally intrusive, robust in the presence of small singular values, rank-adaptive and highly parallelizable. These favourable properties are achieved via oblique projections that require evaluating the MDE at a small number of rows and columns. The columns and rows are selected using the discrete empirical interpolation method (DEIM), which yields near-optimal matrix low-rank approximations. We show that the proposed algorithm is equivalent to a CUR matrix decomposition. Numerical results demonstrate the accuracy, efficiency and robustness of the new method for a diverse set of problems.
-
-#### Project 2: 
-##### Achievement: 
-I explore the geometric foundations of Reduced Order Modeling (ROM) through the lens of Riemannian manifold theory to identify key sources of error in existing state-of-the-art ROM techniques. This investigation leads to the development of a novel oversampling strategy designed to capture a wider range of data variability, thereby improving model accuracy while significantly reducing computational cost. The proposed oversampling method, seamlessly integrated into the ROM framework, demonstrates a tenfold reduction in computational expense compared to conventional approaches. I validate its performance on a range of challenging problems, including highly nonlinear and stiff systems discretized on finite element meshes—scenarios in which traditional ROM techniques often incur costs comparable to full-order models.
-
-
-#### Project 3: 	
-##### Achievement: 
-Seizure prediction and analysis: I built a one-dimensional spiking neuronal network to explore how waves move through and are controlled in the brain. This work helped reveal how sensitive cortical networks are to different types of stimuli. I also created and studied a simplified model of synaptic activity to understand its stability and how it can shift into unhealthy, seizure-like states. Through detailed analysis of how spatial and temporal inhibition works, I showed how wave propagation in the brain can suddenly break down, offering new insights into the mechanisms behind seizures.
-
-##### Project discription: 
-Propagating waves of activity can be evoked and can occur spontaneously in vivo and in vitro in cerebral cortex. These waves are thought to be instrumental in the propagation of information across cortical regions and as a means to modulate the sensitivity of neurons to subsequent stimuli. In normal tissue, the waves are sparse and tightly controlled by inhibition and other negative feedback processes. However, alterations of this balance between excitation and inhibition can lead to pathological behavior such as seizure-type dynamics (with low inhibition) or failure to propagate (with high inhibition). We develop a spiking one-dimensional network of neurons to explore the reliability and control of evoked waves and compare this to a cortical slice preparation where the excitability can be pharmacologically manipulated. We show that the waves enhance sensitivity of the cortical network to stimuli in specific spatial and temporal ways. To gain further insight into the mechanisms of propagation and transitions to pathological behavior, we derive a mean-field model for the synaptic activity. We analyze the mean-field model and a piece-wise constant approximation of it and study the stability of the propagating waves as spatial and temporal properties of the inhibition are altered. We show that that the transition to seizure-like activity is gradual but that the loss of propagation is abrupt and can occur via either the loss of existence of the wave or through a loss of stability leading to complex patterns of propagation.
+#### **Project 2: Geometric Oversampling for Enhanced ROM Accuracy**
+**Achievement:**  
+Investigated geometric sources of error in modern ROMs using **Riemannian manifold theory**, leading to a **novel oversampling strategy** that improves model accuracy while reducing computational costs by an order of magnitude compared to conventional sampling. The technique was validated on nonlinear, stiff systems on finite element meshes, where traditional ROMs often fail to outperform full-order models.
 
 
 
-#### Project 4: Fifth Year Thesis Project under the supervision of Dr. Sanjay Kumar Singh at the IISER-Bhopal(May 2016 - May 2017)
-The objective of my project was to study Vector Bundles over Compact Riemann Surfaces. The goal was to study vector bundles and prove a theorem of Andre Weils . We constructed a vector bundle associated to the representation of the fundamental group of a compact Riemann surface and saw that the vector bundle is an indecomposable degree zero vector bundle. Now, there is a natural question that comes to mind: " Characterize those degree zero vector bundles that come from representations". Andre Weil’s theorem gives an answer to this question.
+#### **Project 3: Seizure Prediction via Cortical Wave Modeling**
+**Achievement:**  
+Built a 1D spiking neural network model to explore **wave propagation in the brain**, uncovering mechanisms by which inhibitory control shapes cortical sensitivity. Developed a reduced synaptic activity model to study the **stability of healthy vs. seizure-like dynamics**, showing that loss of wave propagation can occur abruptly, providing insights into epileptic transitions.
 
-### Ongoing 
-##### Project 1: 
-Developed a novel domain decomposition method tailored for transport-dominated problems, achieving a 12-fold reduction in simulation data size and substantially lowering computational time. The approach naturally supports parallelization by enabling concurrent solutions of subdomains across multiple processors or computational nodes, making it highly efficient for large-scale simulations.
+**Description:**  
+Cortical waves play a critical role in information transfer and neural responsiveness. We simulated these waves using a spiking neuronal network and validated our findings with cortical slice experiments. A mean-field model of synaptic activity was derived to explore transitions from normal to pathological states, demonstrating how spatial and temporal inhibition governs the stability and existence of wavefronts.
 
-##### Project 2: 
-Parametric Optimization Using TDB-CUR: In collaboration with a colleague from the University of Waterloo, we are applying TDB-CUR to large-scale parametric optimization problems, guided by a Master's student. This project aims to leverage low-rank modeling to accelerate optimization under uncertainty.
+
+
+#### **Project 4: Fifth-Year Thesis – Vector Bundles over Riemann Surfaces (IISER Bhopal)**  
+Under the supervision of Dr. Sanjay Kumar Singh, this project focused on vector bundles over compact Riemann surfaces, culminating in a proof of **André Weil’s theorem**. The work involved constructing vector bundles from fundamental group representations and characterizing those of **degree zero** that originate from such representations.
+
+
+
+### **Ongoing Projects**
+
+#### **Project 1: Domain Decomposition for Transport-Dominated Systems**
+Developed a novel **domain decomposition** strategy tailored for transport-dominated phenomena like convection and shock waves. Achieved a **12× reduction** in data size and significantly decreased computational time. The method supports **parallel computing** by independently solving subdomains, enhancing scalability and efficiency in large-scale simulations.
+
+#### **Project 2: Parametric Optimization Using TDB-CUR**
+In collaboration with a colleague from the University of Waterloo and guided by a Master's student, this project applies the **TDB-CUR** framework to accelerate **parametric optimization under uncertainty**. The aim is to efficiently navigate large parameter spaces using low-rank surrogates for complex systems.
 
 
 #### Technical Skills: Matlab, Python, C++, Julia, Fortran, R, SQL, Latex, XPPAUT
