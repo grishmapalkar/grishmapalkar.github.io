@@ -31,6 +31,21 @@ I am Grishma, currently pursuing my graduate studies at the University of Pittsb
 
 ## Research Projects
 
+
+### **Completed**
+
+#### **Project 1: Efficient and Robust Low-Rank Modeling for Large-Scale Nonlinear SPDEs**
+
+**Achievement:**  
+Achieved simulation speeds **1,000× faster** than full-order models and **10× faster** than comparable reduced-order models, while maintaining **99.99% accuracy**. The method exhibited **robustness to small singular values**, **adaptability to rank variation**, and **high parallelizability**, offering exceptional computational efficiency with minimal intrusion.
+
+**Project Description:**  
+Time-dependent basis reduced-order models (TDB ROMs) have emerged as powerful tools for approximating solutions to large-scale nonlinear stochastic partial differential equations (PDEs). However, practical deployment is hindered by key challenges: (i) inefficiency with general nonlinearities, (ii) intrusive implementation requirements, (iii) numerical instability from small singular values, and (iv) error accumulation due to fixed-rank truncation.
+
+To overcome these barriers, we developed a **scalable, robust, and adaptive framework** for solving matrix differential equations (MDEs) arising from TDB ROMs. Our approach leverages **oblique projections** and **CUR decompositions**, with row and column sampling performed via the **Discrete Empirical Interpolation Method (DEIM)**—enabling near-optimal low-rank approximations. This results in a **minimally intrusive**, **rank-adaptive**, and **highly parallelizable** algorithm.
+
+Extensive numerical experiments on challenging PDE systems—including those exhibiting stiff and chaotic behavior—demonstrated the method's superior performance in terms of **accuracy, stability, and efficiency**.
+
 ### Completed
 #### Project 1: 
 ##### Achievement:
