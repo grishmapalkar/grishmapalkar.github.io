@@ -1,8 +1,14 @@
 
 ## About Me
 
+I am a Ph.D. candidate in the Computational Modeling and Simulation program at the University of Pittsburgh, where I work under the guidance of Dr. Hessam Babaee. My research lies at the intersection of scientific computing and machine learning, with a focus on reduced-order modeling (ROM), low-rank matrix and tensor approximations, and scalable numerical algorithms for high-dimensional problems. These methods are instrumental in overcoming the curse of dimensionality and enabling efficient solutions to complex problems in fields such as computational physics, engineering, and data science.
 
-I am Grishma, currently pursuing my graduate studies at the University of Pittsburgh. My academic background includes a dual degree in B.S.M.S. from IISER Bhopal, where I concentrated on pure mathematics with a focus on Algebra Geometry. Throughout my master's program at the University of Pittsburgh, I collaborated with Dr. Bard Ermentrout in the field of Computational Neuroscience. Presently, I am engaged in research with Dr. Hessam Babaee, exploring reduced order modeling (ROM).
+I am increasingly interested in the applications of my work to deep learning and natural language processing. The core ideas in my research—such as efficient representations, dimensionality reduction, and model compression—align closely with challenges in training and deploying large-scale neural networks. I am excited about exploring how ROM and low-rank techniques can enhance the performance and interpretability of modern deep learning models.
+
+Prior to my doctoral studies, I earned a Master’s degree in Applied Mathematics from the University of Pittsburgh, during which I conducted my thesis research in Computational Neuroscience under Dr. Bard Ermentrout, focusing on mathematical modeling of neuronal dynamics.
+
+I hold a dual B.S.-M.S. degree from IISER Bhopal, where I specialized in Pure Mathematics with a concentration in Algebra and Geometry. My academic journey has continually blended theory and computation, and my current research reflects this synthesis by applying advanced mathematical tools to tackle large-scale, real-world challenges.
+
 
 
 
