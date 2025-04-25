@@ -42,7 +42,7 @@ Time-dependent basis reduced-order models (TDB ROMs) are effective for approxima
 
 
 
-### **Project 2: Geometric Oversampling for Enhanced ROM Accuracy**
+### **Project 2: Cross Oversampling for Enhanced ROM Accuracy**
 **Achievement:**  
 Investigated geometric sources of error in modern ROMs using **Riemannian manifold theory**, leading to a **novel oversampling strategy** that improves model accuracy while reducing computational costs by an order of magnitude compared to conventional sampling. The technique was validated on nonlinear, stiff systems on finite element meshes, where traditional ROMs often fail to outperform full-order models.
 
