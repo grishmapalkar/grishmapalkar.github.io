@@ -108,7 +108,7 @@ In collaboration with a colleague from the University of Waterloo and guided by 
 - Presented a Minisymposium at SIAM-NNP, RIT, NY (USA) - Nov 2024
 - Presented a Minisymposium at 2024 SIAM Annual Meeting (AN24)
 - Poster Presentation at SIAM-NNP, NJIT, NJ (USA) - October 2023
-- Talk AWM Pitt Graduate Seminar*, University of Pittsburgh — March 2021  [Watch recording](https://youtu.be/VWMUYsA2dE0?si=0AzSiOcfDXDd7yO3)
+- Talk AWM Pitt Graduate Seminar, University of Pittsburgh — March 2021  [Watch recording](https://youtu.be/VWMUYsA2dE0?si=0AzSiOcfDXDd7yO3)
 - Graduate Career Design Workshop and Series, University of Pittsburgh, PA (USA) - 2022
 - GIAN programme lectures by Prof. Ram Murty on Modular Forms, IISER-Bhopal (India) - 2016
 - Summer Programme in Mathematics (SPIM 2015), Harish Chandra Research Institute, Allahabad (India) - 2015
