@@ -60,6 +60,21 @@ Cortical waves play a critical role in information transfer and neural responsiv
 #### **Project 4: Fifth-Year Thesis – Vector Bundles over Riemann Surfaces (IISER Bhopal)**  
 Under the supervision of Dr. Sanjay Kumar Singh, this project focused on vector bundles over compact Riemann surfaces, culminating in a proof of **André Weil’s theorem**. The work involved constructing vector bundles from fundamental group representations and characterizing those of **degree zero** that originate from such representations.
 
+#### **Project 5: MarketMind: Unveiling Stock Trends with Machine Learning**
+
+The stock market is inherently complex—volatile, multifactorial, and often short on actionable signals. Our project tackles this challenge using advanced machine learning models, with a focus on evaluating **technical indicators** rather than constructing a trading strategy.
+
+Our goal was to assess whether historical price patterns could be leveraged by machine learning to **predict future stock price movements**, offering **strategic insights** for analysts and traders. While not optimized for maximizing trading profits, our models reveal underlying patterns that challenge the assumptions of the **Efficient Market Hypothesis**, which posits that historical data holds minimal predictive value.
+
+By applying rigorous **feature engineering**, **data preprocessing**, and **model tuning**, we observed that:
+- **Continuous models** provide richer information but are more sensitive to market noise.
+- **Classification models** are more stable and better at trend direction, but lack granularity.
+
+Some of our models outperformed naive benchmarks, indicating the potential for well-processed technical data to yield **predictive edge** in certain market regimes.
+
+📊 Explore the code and results here:  
+🔗 [GitHub Repository](https://github.com/grishmapalkar/equity-vs-commodity?tab=readme-ov-file)
+
 
 
 ### **Ongoing Projects**
