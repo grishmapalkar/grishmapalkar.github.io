@@ -1,5 +1,5 @@
 
-## About Me
+## <span class="purple-text">About Me</span>
 
 I am a Ph.D. candidate in the Computational Modeling and Simulation program at the University of Pittsburgh, where I work under the guidance of Dr. Hessam Babaee. My research lies at the intersection of scientific computing and machine learning, with a focus on reduced-order modeling (ROM): low-rank matrix and tensor approximations, and scalable numerical algorithms for high-dimensional problems. These methods are instrumental in overcoming the curse of dimensionality and enabling efficient solutions to complex problems in fields such as computational physics, engineering, and data science.
 
