@@ -65,7 +65,7 @@ Cortical waves play a critical role in information transfer and neural responsiv
 
 ### **Project 4: MarketMind: Unveiling Stock Trends with Machine Learning**
 
-The stock market is inherently complex—volatile, multifactorial, and often short on actionable signals. Our project tackles this challenge using advanced machine learning models, with a focus on evaluating **technical indicators** rather than constructing a trading strategy.
+The stock market is inherently complex-volatile, multifactorial, and often short on actionable signals. Our project tackles this challenge using advanced machine learning models, with a focus on evaluating **technical indicators** rather than constructing a trading strategy.
 
 Our goal was to assess whether historical price patterns could be leveraged by machine learning to **predict future stock price movements**, offering **strategic insights** for analysts and traders. While not optimized for maximizing trading profits, our models reveal underlying patterns that challenge the assumptions of the **Efficient Market Hypothesis**, which posits that historical data holds minimal predictive value.
 
