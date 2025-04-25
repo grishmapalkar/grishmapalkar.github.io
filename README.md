@@ -33,7 +33,7 @@ I am Grishma, currently pursuing my graduate studies at the University of Pittsb
 
 ### **Completed Projects**
 
-#### **Project 1: Scalable Time-Dependent Basis ROM for Nonlinear SPDEs**
+### **Project 1: Scalable Time-Dependent Basis ROM for Nonlinear SPDEs**
 **Achievement:**  
 Developed a reduced-order modeling framework achieving **1000× speedup** over full-order models and **10× improvement** over existing ROMs, with **99.99% accuracy** and enhanced numerical stability. The model adapts dynamically to rank changes, is robust to small singular values, and supports parallelization with minimal code intrusion.
 
@@ -42,13 +42,13 @@ Time-dependent basis reduced-order models (TDB ROMs) are effective for approxima
 
 
 
-#### **Project 2: Geometric Oversampling for Enhanced ROM Accuracy**
+### **Project 2: Geometric Oversampling for Enhanced ROM Accuracy**
 **Achievement:**  
 Investigated geometric sources of error in modern ROMs using **Riemannian manifold theory**, leading to a **novel oversampling strategy** that improves model accuracy while reducing computational costs by an order of magnitude compared to conventional sampling. The technique was validated on nonlinear, stiff systems on finite element meshes, where traditional ROMs often fail to outperform full-order models.
 
 
 
-#### **Project 3: Seizure Prediction via Cortical Wave Modeling**
+### **Project 3: Seizure Prediction via Cortical Wave Modeling**
 **Achievement:**  
 Built a 1D spiking neural network model to explore **wave propagation in the brain**, uncovering mechanisms by which inhibitory control shapes cortical sensitivity. Developed a reduced synaptic activity model to study the **stability of healthy vs. seizure-like dynamics**, showing that loss of wave propagation can occur abruptly, providing insights into epileptic transitions.
 
@@ -57,10 +57,10 @@ Cortical waves play a critical role in information transfer and neural responsiv
 
 
 
-#### **Project 4: Fifth-Year Thesis – Vector Bundles over Riemann Surfaces (IISER Bhopal)**  
+### **Project 4: Fifth-Year Thesis – Vector Bundles over Riemann Surfaces (IISER Bhopal)**  
 Under the supervision of Dr. Sanjay Kumar Singh, this project focused on vector bundles over compact Riemann surfaces, culminating in a proof of **André Weil’s theorem**. The work involved constructing vector bundles from fundamental group representations and characterizing those of **degree zero** that originate from such representations.
 
-#### **Project 5: MarketMind: Unveiling Stock Trends with Machine Learning**
+### **Project 5: MarketMind: Unveiling Stock Trends with Machine Learning**
 
 The stock market is inherently complex—volatile, multifactorial, and often short on actionable signals. Our project tackles this challenge using advanced machine learning models, with a focus on evaluating **technical indicators** rather than constructing a trading strategy.
 
@@ -79,10 +79,10 @@ Some of our models outperformed naive benchmarks, indicating the potential for w
 
 ### **Ongoing Projects**
 
-#### **Project 1: Domain Decomposition for Transport-Dominated Systems**
+### **Project 1: Domain Decomposition for Transport-Dominated Systems**
 Developed a novel **domain decomposition** strategy tailored for transport-dominated phenomena like convection and shock waves. Achieved a **12× reduction** in data size and significantly decreased computational time. The method supports **parallel computing** by independently solving subdomains, enhancing scalability and efficiency in large-scale simulations.
 
-#### **Project 2: Parametric Optimization Using TDB-CUR**
+### **Project 2: Parametric Optimization Using TDB-CUR**
 In collaboration with a colleague from the University of Waterloo and guided by a Master's student, this project applies the **TDB-CUR** framework to accelerate **parametric optimization under uncertainty**. The aim is to efficiently navigate large parameter spaces using low-rank surrogates for complex systems.
 
 #### Technical Skills: Matlab, Python, C++, Julia, Fortran, R, SQL, Latex, XPPAUT
