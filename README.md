@@ -3,7 +3,7 @@
 
 I am a Ph.D. candidate in the Computational Modeling and Simulation program at the University of Pittsburgh, where I work under the guidance of Dr. Hessam Babaee. My research lies at the intersection of scientific computing and machine learning, with a focus on reduced-order modeling (ROM): low-rank matrix and tensor approximations, and scalable numerical algorithms for high-dimensional problems. These methods are instrumental in overcoming the curse of dimensionality and enabling efficient solutions to complex problems in fields such as computational physics, engineering, and data science.
 
-I am increasingly interested in the applications of my work to deep learning and natural language processing. The core ideas in my research—such as efficient representations, dimensionality reduction, and model compression—align closely with challenges in training and deploying large scale neural networks. I am excited about exploring how ROM and low rank techniques can enhance the performance and interpretability of modern deep learning models.
+I am increasingly interested in the applications of my work to deep learning and natural language processing. The core ideas in my research such as efficient representations, dimensionality reduction, and model compression align closely with challenges in training and deploying large scale neural networks. I am excited about exploring how ROM and low rank techniques can enhance the performance and interpretability of modern deep learning models.
 
 Prior to my doctoral studies, I earned a Master’s degree in Applied Mathematics from the University of Pittsburgh, during which I conducted my thesis research in Computational Neuroscience under Dr. Bard Ermentrout, focusing on mathematical modeling of neuronal dynamics.
 
