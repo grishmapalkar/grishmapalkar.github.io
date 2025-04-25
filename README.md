@@ -1,9 +1,9 @@
 
 ## About Me
 
-I am a Ph.D. candidate in the Computational Modeling and Simulation program at the University of Pittsburgh, where I work under the guidance of Dr. Hessam Babaee. My research lies at the intersection of scientific computing and machine learning, with a focus on reduced-order modeling (ROM), low-rank matrix and tensor approximations, and scalable numerical algorithms for high-dimensional problems. These methods are instrumental in overcoming the curse of dimensionality and enabling efficient solutions to complex problems in fields such as computational physics, engineering, and data science.
+I am a Ph.D. candidate in the Computational Modeling and Simulation program at the University of Pittsburgh, where I work under the guidance of Dr. Hessam Babaee. My research lies at the intersection of scientific computing and machine learning, with a focus on reduced-order modeling (ROM): low-rank matrix and tensor approximations, and scalable numerical algorithms for high-dimensional problems. These methods are instrumental in overcoming the curse of dimensionality and enabling efficient solutions to complex problems in fields such as computational physics, engineering, and data science.
 
-I am increasingly interested in the applications of my work to deep learning and natural language processing. The core ideas in my research—such as efficient representations, dimensionality reduction, and model compression—align closely with challenges in training and deploying large-scale neural networks. I am excited about exploring how ROM and low-rank techniques can enhance the performance and interpretability of modern deep learning models.
+I am increasingly interested in the applications of my work to deep learning and natural language processing. The core ideas in my research—such as efficient representations, dimensionality reduction, and model compression—align closely with challenges in training and deploying large scale neural networks. I am excited about exploring how ROM and low rank techniques can enhance the performance and interpretability of modern deep learning models.
 
 Prior to my doctoral studies, I earned a Master’s degree in Applied Mathematics from the University of Pittsburgh, during which I conducted my thesis research in Computational Neuroscience under Dr. Bard Ermentrout, focusing on mathematical modeling of neuronal dynamics.
 
@@ -63,10 +63,7 @@ Cortical waves play a critical role in information transfer and neural responsiv
 
 
 
-### **Project 4: Fifth-Year Thesis – Vector Bundles over Riemann Surfaces (IISER Bhopal)**  
-Under the supervision of Dr. Sanjay Kumar Singh, this project focused on vector bundles over compact Riemann surfaces, culminating in a proof of **André Weil’s theorem**. The work involved constructing vector bundles from fundamental group representations and characterizing those of **degree zero** that originate from such representations.
-
-### **Project 5: MarketMind: Unveiling Stock Trends with Machine Learning**
+### **Project 4: MarketMind: Unveiling Stock Trends with Machine Learning**
 
 The stock market is inherently complex—volatile, multifactorial, and often short on actionable signals. Our project tackles this challenge using advanced machine learning models, with a focus on evaluating **technical indicators** rather than constructing a trading strategy.
 
@@ -81,7 +78,8 @@ Some of our models outperformed naive benchmarks, indicating the potential for w
 📊 Explore the code and results here:  
 🔗 [GitHub Repository](https://github.com/grishmapalkar/equity-vs-commodity?tab=readme-ov-file)
 
-
+### **Project 5: Fifth-Year Thesis – Vector Bundles over Riemann Surfaces (IISER Bhopal)**  
+Under the supervision of Dr. Sanjay Kumar Singh, this project focused on vector bundles over compact Riemann surfaces, culminating in a proof of **André Weil’s theorem**. The work involved constructing vector bundles from fundamental group representations and characterizing those of **degree zero** that originate from such representations.
 
 ### **Ongoing Projects**
 
